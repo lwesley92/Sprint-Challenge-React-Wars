@@ -24,13 +24,23 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web. 
+
+ReactJs is a JavaScript library created by Facebook, used as a tool for building UI components. It allows us to build these components that we can then use to build complex UIs by passing our props through our components as a means to change our state. It makes building large applications easier and faster.
 
 - [ ] What does it mean to _think_ in react?
 
-- [ ] Describe state.
+Thinking in react is the process of how you are encouraged to think about your apps as you are building them, and how each piece is affecting the overall app itself. We break this down by compartmentalizing our components and breaking out content down into smaller manageable pieces.
 
-- [ ] Describe props.
+- [ ] Describe state. 
+
+State is the heart of all React components, it contains the data we are using, and it is what determines how our components behave. State is what allows us as developers to create dynamic components, and is very similar to the scope of our functions.
+
+- [ ] Describe props. 
+
+Props are the component attributes, that get passed between parent and child components in order to render out our application. We use 'this' to access our props throughout our application. Props are then used to change the state of our components, they are what make components reusable.
+
+
 
 ## Project Set Up
 
